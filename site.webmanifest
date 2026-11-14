@@ -1,0 +1,15 @@
+{
+  "name": "Tekmerion",
+  "short_name": "Tekmerion",
+  "start_url": "/tekmerion-suite/en/",
+  "display": "browser",
+  "background_color": "#0A1624",
+  "theme_color": "#0A1624",
+  "icons": [
+    {
+      "src": "/tekmerion-suite/assets/brand/tekmerion_mark_light.svg",
+      "sizes": "any",
+      "type": "image/svg+xml"
+    }
+  ]
+}

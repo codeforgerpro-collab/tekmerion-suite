@@ -1,0 +1,39 @@
+# Tekmerion
+
+> Tekmerion builds software that shows its sources, tests its own claims and keeps a permanent record. Twelve products across markets, energy, official records, education, property and live platforms.
+
+Tekmerion is based in Athens, Greece. Motto: Built on proof. Contact: codeforgerpro@gmail.com
+
+## Markets & Macro
+- [Navigator](https://codeforgerpro-collab.github.io/tekmerion-suite/en/suite/navigator/): Global markets and the official voices that move them, on one screen: 1,247 price series beside what central banks, ministries and regulators have just said.
+- [Greek Stock Exchange](https://codeforgerpro-collab.github.io/tekmerion-suite/en/suite/greek-stock-exchange/): A market console for the Athens exchange that shows what is measurable and nothing else: the six headline indices, every sector and every instrument against its own history and against the Composite.
+- [Tekmerion Synedrion](https://codeforgerpro-collab.github.io/tekmerion-suite/en/suite/synedrion/): A committee of statistical methods that debates your own data: it forecasts, builds portfolios and then tries to prove itself wrong before it lets you trust a result.
+- [Chresmos](https://codeforgerpro-collab.github.io/tekmerion-suite/en/suite/chresmos/): Explainable forecasting for series whose cycles drift, built on Locally-Adaptive Karhunen–Loève forecasting (LA-KLF), with its reasoning shown at every step.
+- [TROY · Siege Desk](https://codeforgerpro-collab.github.io/tekmerion-suite/en/suite/troy-siege-desk/): A weekly forecasting desk for any market: a seven-day outlook with its fan of outcomes, every call sealed before the week begins and scored when it ends.
+
+## Energy & Chokepoint Risk
+- [Prometheus Intelligence](https://codeforgerpro-collab.github.io/tekmerion-suite/en/suite/prometheus-intelligence/): A research desk for energy, LNG and the maritime chokepoints that carry them, built for Europe and the Eastern Mediterranean.
+- [Phryktoria](https://codeforgerpro-collab.github.io/tekmerion-suite/en/suite/phryktoria/): Chokepoint early warning turned into accountable forecasts: each is backtested point-in-time before it is shown, sealed in Bitcoin when issued and scored live once the outcome is known.
+
+## Policy & Official Records
+- [Proxenos LinkLab](https://codeforgerpro-collab.github.io/tekmerion-suite/en/suite/proxenos-linklab/): A linked, provable archive of what governments officially say: statements from about 340 official sources, evaluated, stored permanently and connected to everything before them.
+
+## Education
+- [Pyxida](https://codeforgerpro-collab.github.io/tekmerion-suite/en/suite/pyxida/): A study co-pilot designed for students of the Department of Economics of the National and Kapodistrian University of Athens: it applies the Department's own rules to a student's grades and shows what is left, in what order and why.
+
+## Property & Real Estate
+- [Certiplot](https://codeforgerpro-collab.github.io/tekmerion-suite/en/suite/certiplot/): Property intelligence for Greece and Cyprus: what the official record says about a place (sales, planning, risk and rules) before a buyer falls for a listing.
+
+## Live Platforms
+- [ATHENA Glaux Intelligence](https://codeforgerpro-collab.github.io/tekmerion-suite/en/suite/athena/): A public news-intelligence site in English, Greek and French: events confirmed by independent outlets, a risk reading for each section and country, and a trail back to every original source.
+- [Kybernetes](https://codeforgerpro-collab.github.io/tekmerion-suite/en/suite/kybernetes/): The control room behind the suite's live platforms: it watches them every five minutes, explains each red or amber line in plain words and repairs what is safe to repair on its own.
+
+## Insights
+- [Introducing Tekmerion: twelve products, one discipline](https://codeforgerpro-collab.github.io/tekmerion-suite/en/insights/introducing-tekmerion/) (2026-11-13): Why every Tekmerion product shows its sources, tests its own claims and keeps a permanent, provable record of what it published.
+
+## Company
+- [Methodology](https://codeforgerpro-collab.github.io/tekmerion-suite/en/methodology/)
+- [About](https://codeforgerpro-collab.github.io/tekmerion-suite/en/about/)
+- [Solutions](https://codeforgerpro-collab.github.io/tekmerion-suite/en/solutions/)
+- [Contact](https://codeforgerpro-collab.github.io/tekmerion-suite/en/contact/)
+- Greek edition: https://codeforgerpro-collab.github.io/tekmerion-suite/gr/

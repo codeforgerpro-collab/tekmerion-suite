@@ -1,0 +1,5 @@
+User-agent: *
+Allow: /
+Disallow: /api/
+
+Sitemap: https://codeforgerpro-collab.github.io/tekmerion-suite/sitemap.xml
