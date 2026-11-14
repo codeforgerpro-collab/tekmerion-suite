@@ -42,10 +42,16 @@
       if (enter) setTimeout(function () { try { enter.focus({ preventScroll: true }); } catch (e) { enter.focus(); } }, 60);
       if (reduce || !video) { setStep(4); timers.push(setTimeout(closeIntro, 9000)); return; }
       try { video.currentTime = 0; } catch (e) {}
+      // try with the music first; browsers that refuse sound without a click get a silent start and a "Sound on" button
+      var snd = intro.querySelector("[data-sound]");
+      var setSnd = function () { if (snd) { snd.setAttribute("aria-pressed", video.muted ? "false" : "true"); snd.textContent = video.muted ? snd.getAttribute("data-on") : snd.getAttribute("data-off"); } };
+      video.muted = false; video.volume = 0.8;
       var pr = video.play();
-      if (pr && pr.catch) pr.catch(function () { /* autoplay refused: the poster (finished mark) stays on screen */ });
-      [[2200, 1], [4600, 2], [7000, 3], [10400, 4]].forEach(function (x) { timers.push(setTimeout(function () { setStep(x[1]); }, x[0])); });
-      timers.push(setTimeout(closeIntro, 14500));
+      if (pr && pr.catch) pr.catch(function () { video.muted = true; setSnd(); var p2 = video.play(); if (p2 && p2.catch) p2.catch(function () {}); });
+      setSnd();
+      if (snd && !snd._wired) { snd._wired = true; snd.addEventListener("click", function () { video.muted = !video.muted; if (video.paused) video.play(); setSnd(); }); }
+      [[2750, 1], [5750, 2], [8750, 3], [13000, 4]].forEach(function (x) { timers.push(setTimeout(function () { setStep(x[1]); }, x[0])); });
+      timers.push(setTimeout(closeIntro, 17500));
     };
     intro.querySelectorAll("[data-intro-close]").forEach(function (b) { b.addEventListener("click", closeIntro); });
     document.querySelectorAll("[data-intro-replay]").forEach(function (b) { b.addEventListener("click", function () { openIntro(b); }); });
@@ -134,6 +140,48 @@
       io.observe(el);
     });
     counters.forEach(function (c) { io.observe(c); });
+  }
+
+  // Hero tags: each lights up its part of the chart and explains itself; they cycle on their own until the visitor picks one
+  var viz = document.querySelector("[data-viz]");
+  if (viz) {
+    var tags = Array.prototype.slice.call(viz.querySelectorAll("[data-tag]")), hint = viz.querySelector(".tag-hint"), cyc = null, ti = -1;
+    var pick = function (i) {
+      ti = i;
+      tags.forEach(function (b, j) { b.setAttribute("aria-pressed", j === i ? "true" : "false"); });
+      viz.querySelectorAll("[data-card]").forEach(function (c) { c.hidden = +c.getAttribute("data-card") !== i; });
+      if (hint) hint.hidden = i >= 0;
+      if (i >= 0) viz.setAttribute("data-hl", tags[i].getAttribute("data-hl")); else viz.removeAttribute("data-hl");
+    };
+    var stop = function () { if (cyc) { clearInterval(cyc); cyc = null; } };
+    tags.forEach(function (b, i) {
+      b.addEventListener("click", function () { stop(); pick(ti === i ? -1 : i); });
+      b.addEventListener("mouseenter", function () { stop(); pick(i); });
+      b.addEventListener("focus", function () { stop(); pick(i); });
+    });
+    if (!reduce) setTimeout(function () { if (ti === -1) { pick(0); cyc = setInterval(function () { pick((ti + 1) % tags.length); }, 4200); } }, 3200);
+  }
+
+  // Proof figures: each opens what stands behind it (one at a time)
+  var pb = document.querySelector("[data-proofband]");
+  if (pb) {
+    var boxes = Array.prototype.slice.call(pb.querySelectorAll("[data-proof]"));
+    boxes.forEach(function (b) {
+      b.addEventListener("click", function () {
+        var open = b.getAttribute("aria-expanded") !== "true";
+        boxes.forEach(function (x) {
+          var on = x === b && open;
+          x.setAttribute("aria-expanded", on ? "true" : "false");
+          var p = document.getElementById(x.getAttribute("aria-controls")); if (p) p.hidden = !on;
+        });
+      });
+    });
+    document.querySelectorAll("[data-open-family]").forEach(function (a) {
+      a.addEventListener("click", function (e) {
+        var t = document.getElementById("tab-" + a.getAttribute("data-open-family"));
+        if (t) { e.preventDefault(); t.click(); document.getElementById("explore").scrollIntoView({ behavior: reduce ? "auto" : "smooth" }); }
+      });
+    });
   }
 
   // Scroll progress bar and back-to-top
