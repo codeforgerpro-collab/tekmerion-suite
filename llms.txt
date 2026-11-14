@@ -7,7 +7,7 @@ Tekmerion is based in Athens, Greece. Motto: Built on proof. Contact: codeforger
 ## Markets & Macro
 - [Navigator](https://codeforgerpro-collab.github.io/tekmerion-suite/en/suite/navigator/): Global markets and the official voices that move them, on one screen: 1,247 price series beside what central banks, ministries and regulators have just said.
 - [Greek Stock Exchange](https://codeforgerpro-collab.github.io/tekmerion-suite/en/suite/greek-stock-exchange/): A market console for the Athens exchange that shows what is measurable and nothing else: the six headline indices, every sector and every instrument against its own history and against the Composite.
-- [Tekmerion Synedrion](https://codeforgerpro-collab.github.io/tekmerion-suite/en/suite/synedrion/): A committee of statistical methods that debates your own data: it forecasts, builds portfolios and then tries to prove itself wrong before it lets you trust a result.
+- [Synedrion](https://codeforgerpro-collab.github.io/tekmerion-suite/en/suite/synedrion/): The Investment Council: a council of statistical methods that debates your own data. It forecasts, builds portfolios and then tries to prove itself wrong before it lets you trust a result.
 - [Chresmos](https://codeforgerpro-collab.github.io/tekmerion-suite/en/suite/chresmos/): Explainable forecasting for series whose cycles drift, built on Locally-Adaptive Karhunen–Loève forecasting (LA-KLF), with its reasoning shown at every step.
 - [TROY · Siege Desk](https://codeforgerpro-collab.github.io/tekmerion-suite/en/suite/troy-siege-desk/): A weekly forecasting desk for any market: a seven-day outlook with its fan of outcomes, every call sealed before the week begins and scored when it ends.
 

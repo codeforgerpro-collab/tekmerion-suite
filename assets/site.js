@@ -44,8 +44,8 @@
       try { video.currentTime = 0; } catch (e) {}
       var pr = video.play();
       if (pr && pr.catch) pr.catch(function () { /* autoplay refused: the poster (finished mark) stays on screen */ });
-      [[2300, 1], [5200, 2], [8200, 3], [13000, 4]].forEach(function (x) { timers.push(setTimeout(function () { setStep(x[1]); }, x[0])); });
-      timers.push(setTimeout(closeIntro, 18500));
+      [[2200, 1], [4600, 2], [7000, 3], [10400, 4]].forEach(function (x) { timers.push(setTimeout(function () { setStep(x[1]); }, x[0])); });
+      timers.push(setTimeout(closeIntro, 14500));
     };
     intro.querySelectorAll("[data-intro-close]").forEach(function (b) { b.addEventListener("click", closeIntro); });
     document.querySelectorAll("[data-intro-replay]").forEach(function (b) { b.addEventListener("click", function () { openIntro(b); }); });
