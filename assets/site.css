@@ -471,3 +471,11 @@ kbd{font-family:var(--mono);font-size:.72rem;border:1px solid var(--line2);borde
 .intro-bar{animation:bar 17.5s linear both}
 .chip.c3{bottom:auto;top:250px;right:-14px}.chip.c4{bottom:auto;top:318px;left:30px}
 @media (max-width:600px){.chip.c3{top:44%;right:8px}.chip.c4{top:62%}}
+
+/* DUP-1 (17 Nov 2026): the finder answers with compact product links - the full cards live once, in "Explore the suite" */
+.fres.grid{gap:10px}
+.fchip{display:flex;align-items:center;gap:12px;padding:12px 14px;border:1px solid var(--line2);border-radius:12px;background:var(--bg2);color:var(--text)}
+.fchip:hover,.fchip:focus-visible{border-color:var(--gold);background:var(--panel)}
+.fchip .fico{flex:none;width:36px;height:36px;display:grid;place-items:center}.fchip .fico img{width:36px;height:36px;border-radius:8px;object-fit:contain}
+.fchip .fico svg{width:24px;height:24px}
+.fchip b{display:block;color:var(--cream);font-weight:600}.fchip small{display:block;color:var(--muted);font-size:.85rem;line-height:1.35}
