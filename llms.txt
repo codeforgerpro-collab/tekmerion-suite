@@ -1,6 +1,6 @@
 # Tekmerion
 
-> Tekmerion builds software that shows its sources, tests its own claims and keeps a permanent record. Twelve products across markets, energy, official records, education, property and live platforms.
+> Tekmerion builds software that shows its sources, tests its own claims and keeps a permanent record. Thirteen products across markets, energy, official records, education, property and live platforms.
 
 Tekmerion is based in Athens, Greece. Motto: Built on proof. Contact: codeforgerpro@gmail.com
 
@@ -20,6 +20,7 @@ Tekmerion is based in Athens, Greece. Motto: Built on proof. Contact: codeforger
 
 ## Education
 - [Pyxida](https://codeforgerpro-collab.github.io/tekmerion-suite/en/suite/pyxida/): A study co-pilot designed for students of the Department of Economics of the National and Kapodistrian University of Athens: it applies the Department's own rules to a student's grades and shows what is left, in what order and why.
+- [Logoi Oikonomias](https://codeforgerpro-collab.github.io/tekmerion-suite/en/suite/logoi-oikonomias/): A private preparation platform for people who receive, inherit or create substantial wealth: it helps them say what the resources are for, what they know and what they still need to ask, before they engage a wealth manager, lawyer, accountant or tax adviser.
 
 ## Property & Real Estate
 - [Certiplot](https://codeforgerpro-collab.github.io/tekmerion-suite/en/suite/certiplot/): Property intelligence for Greece and Cyprus: what the official record says about a place (sales, planning, risk and rules) before a buyer falls for a listing.
@@ -29,7 +30,7 @@ Tekmerion is based in Athens, Greece. Motto: Built on proof. Contact: codeforger
 - [Kybernetes](https://codeforgerpro-collab.github.io/tekmerion-suite/en/suite/kybernetes/): The control room behind the suite's live platforms: it watches them every five minutes, explains each red or amber line in plain words and repairs what is safe to repair on its own.
 
 ## Insights
-- [Introducing Tekmerion: twelve products, one discipline](https://codeforgerpro-collab.github.io/tekmerion-suite/en/insights/introducing-tekmerion/) (2026-11-13): Why every Tekmerion product shows its sources, tests its own claims and keeps a permanent, provable record of what it published.
+- [Introducing Tekmerion: thirteen products, one discipline](https://codeforgerpro-collab.github.io/tekmerion-suite/en/insights/introducing-tekmerion/) (2026-11-13): Why every Tekmerion product shows its sources, tests its own claims and keeps a permanent, provable record of what it published.
 
 ## Company
 - [Methodology](https://codeforgerpro-collab.github.io/tekmerion-suite/en/methodology/)
