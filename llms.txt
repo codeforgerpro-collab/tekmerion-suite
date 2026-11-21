@@ -27,6 +27,7 @@ Tekmerion is based in Athens, Greece. Motto: Built on proof. Contact: codeforger
 
 ## Live Platforms
 - [ATHENA Glaux Intelligence](https://codeforgerpro-collab.github.io/tekmerion-suite/en/suite/athena/): A public news-intelligence site in English, Greek and French: events confirmed by independent outlets, a risk reading for each section and country, and a trail back to every original source.
+- [The Oracle Hunters](https://codeforgerpro-collab.github.io/tekmerion-suite/en/suite/oracle-hunters/): A public record of what governments, central banks, institutions and well-known speakers say about the future, set against what actually happened.
 - [Kybernetes](https://codeforgerpro-collab.github.io/tekmerion-suite/en/suite/kybernetes/): The control room behind the suite's live platforms: it watches them every five minutes, explains each red or amber line in plain words and repairs what is safe to repair on its own.
 
 ## Insights
