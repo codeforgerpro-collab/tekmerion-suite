@@ -35,6 +35,7 @@ Tekmerion is based in Athens, Greece. Motto: Built on proof. Contact: codeforger
 
 ## Company
 - [Methodology](https://codeforgerpro-collab.github.io/tekmerion-suite/en/methodology/)
+- [Circular engineering and sustainability](https://codeforgerpro-collab.github.io/tekmerion-suite/en/circularity/)
 - [About](https://codeforgerpro-collab.github.io/tekmerion-suite/en/about/)
 - [Solutions](https://codeforgerpro-collab.github.io/tekmerion-suite/en/solutions/)
 - [Contact](https://codeforgerpro-collab.github.io/tekmerion-suite/en/contact/)
